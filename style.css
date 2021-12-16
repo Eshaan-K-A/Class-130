@@ -1,0 +1,35 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    width: 200px;
+    border-radius: 35px;
+}
+.headerDiv{
+    background-color: blue;
+    margin: 0px;
+    width: 100%;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    color: deepskyblue;
+}
+.speedDiv, .volumeDiv{
+    text-align: center;
+}
+.leftGif{
+    transform: rotateY(180deg);
+}
+.playButton{
+    margin-top: 500px;
+    color: cornsilk;
+    background-color: crimson;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+}
+canvas{
+    border: 3px solid lightgreen;
+    border-radius: 30px;
+    margin-top: 23px;
+}
